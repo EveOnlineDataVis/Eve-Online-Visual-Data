@@ -377,11 +377,11 @@ def convert_json_folder_to_csv(input_folder, output_csv='killmails.csv', shiplis
 # Example usage
 if __name__ == "__main__":
     # Configuration - Fixed Windows paths
-    INPUT_FOLDER = r"C:\Users\kyleh\Downloads\killmails"
-    OUTPUT_CSV = r"C:\Users\kyleh\OneDrive\Desktop\Professional Projects\Dashboards\Datasets\Eve-Online Killmails\killmails.csv"
-    SHIPLIST_CSV = r"C:\Users\kyleh\OneDrive\Desktop\Professional Projects\Dashboards\Datasets\Eve-Online Killmails\shiplist.csv"
-    TYPEID_CSV = r"C:\Users\kyleh\OneDrive\Desktop\Professional Projects\Dashboards\Datasets\Eve-Online Killmails\typeid.csv"
-    MAP_SOLAR_SYSTEMS_CSV = r"C:\Users\kyleh\OneDrive\Desktop\Professional Projects\Dashboards\Datasets\Eve-Online Killmails\mapSolarSystems.csv"
+    INPUT_FOLDER = r"PATH HERE"
+    OUTPUT_CSV = r"PATH HERE"
+    SHIPLIST_CSV = r"PATH HERE"
+    TYPEID_CSV = r"PATH HERE"
+    MAP_SOLAR_SYSTEMS_CSV = r"PATH HERE"
     
     # Convert files with ship name lookups, weapon type lookups, and solar system lookups
     convert_json_folder_to_csv(INPUT_FOLDER, OUTPUT_CSV, SHIPLIST_CSV, TYPEID_CSV, MAP_SOLAR_SYSTEMS_CSV)
