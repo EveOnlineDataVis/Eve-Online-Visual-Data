@@ -1,4 +1,5 @@
 Update Log:
+
 Killmail Dashboard for July 5, 2025: https://public.tableau.com/app/profile/eve.online.daily.data/viz/Killmails07-05-25/Dashboard1#1 
 
 ------------------------------------------------------------------------------------------------------------------
