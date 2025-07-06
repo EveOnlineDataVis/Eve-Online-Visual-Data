@@ -1,8 +1,9 @@
 Update Log:
 
-Killmail Dashboard for July 5, 2025: https://public.tableau.com/app/profile/eve.online.daily.data/viz/Killmails07-05-25/Dashboard1#1
+Killmail Dashboard for July 5, 2025: [https://public.tableau.com/app/profile/eve.online.daily.data/viz/Killmails07-05-25/Dashboard1#1](https://public.tableau.com/app/profile/eve.online.daily.data/viz/Killmails07-05-25/KillMailDashboard)
 
 System Jumps for July 5, 2025: https://public.tableau.com/app/profile/eve.online.daily.data/viz/SystemJumps7-5-25/SystemJumpsDashboard
+
 ------------------------------------------------------------------------------------------------------------------
 
 # Eve Online Killmail JSON Conversion
