@@ -87,8 +87,6 @@ python "Eve Online Killmail.py"
 
 ## Customization
 
-
-
 - Add or modify enrichment logic in `flatten_killmail` to include more fields.
 - Update lookup CSVs as Eve Online data changes.
 
@@ -117,12 +115,6 @@ This tool converts EVE Online system jump data that comes in JSON format into a 
 - pandas library
 
 ## Installation
-
-1. Clone this repository:
-```bash
-git clone https://github.com/yourusername/eve-system-jumps-converter.git
-cd eve-system-jumps-converter
-```
 
 2. Install required dependencies:
 ```bash
