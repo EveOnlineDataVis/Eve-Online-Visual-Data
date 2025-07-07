@@ -85,7 +85,138 @@ python "Eve Online Killmail.py"
 
 ## Customization
 
+
+
 - Add or modify enrichment logic in `flatten_killmail` to include more fields.
 - Update lookup CSVs as Eve Online data changes.
 
----
+------------------------------------------------------------------------------------------------------------------
+
+# EVE Online System Jumps Converter
+
+A Python utility to convert EVE Online system jump data from JSON format to CSV format with system name mapping.
+
+## Description
+
+This tool converts EVE Online system jump data that comes in JSON format into a more readable CSV format. It automatically maps system IDs to their corresponding system names using the EVE Online static data export (SDE) solar systems mapping file.
+
+## Features
+
+- Parses JSON arrays containing ship jump data
+- Handles both complete and incomplete JSON files
+- Maps system IDs to human-readable system names
+- Exports clean CSV format with system names
+- Provides detailed error reporting and missing system warnings
+- Robust error handling for malformed JSON data
+
+## Requirements
+
+- Python 3.6 or higher
+- pandas library
+
+## Installation
+
+1. Clone this repository:
+```bash
+git clone https://github.com/yourusername/eve-system-jumps-converter.git
+cd eve-system-jumps-converter
+```
+
+2. Install required dependencies:
+```bash
+pip install pandas
+```
+
+## Usage
+
+### Basic Usage
+
+1. Update the file paths in the script:
+   - `json_file_path`: Path to your system jumps JSON file
+   - `csv_mapping_path`: Path to your `mapSolarSystems.csv` file
+   - `output_csv_path`: Desired output location for the converted CSV
+
+2. Run the script:
+```bash
+python json_to_csv_converter.py
+```
+
+### Input Format
+
+The tool expects JSON input in the following format:
+```json
+[
+  {"ship_jumps":15,"system_id":30002808},
+  {"ship_jumps":9,"system_id":30002006},
+  {"ship_jumps":24,"system_id":30000751}
+]
+```
+
+### Output Format
+
+The tool generates a CSV file with the following columns:
+- `system_id`: The original system ID
+- `system_name`: The mapped system name from the SDE data
+- `ship_jumps`: Number of ship jumps recorded
+
+Example output:
+```csv
+system_id,system_name,ship_jumps
+30002808,Rancer,15
+30002006,Rancer,9
+30000751,Hek,24
+```
+
+## Required Files
+
+### System Jumps JSON File
+Your main data file containing the jump statistics. The file should contain a JSON array of objects with `ship_jumps` and `system_id` fields.
+
+### mapSolarSystems.csv
+This file should contain the EVE Online static data export for solar systems. The tool specifically uses:
+- `solarSystemID`: System identifier
+- `solarSystemName`: Human-readable system name
+
+You can obtain this file from the EVE Online Static Data Export (SDE) available from CCP Games.
+
+## Error Handling
+
+The tool includes comprehensive error handling:
+- **Incomplete JSON**: Automatically attempts to repair truncated JSON files
+- **Missing Systems**: Reports any system IDs that couldn't be found in the mapping file
+- **File Access**: Provides clear error messages for file reading issues
+- **Data Validation**: Validates JSON structure and data types
+
+## Configuration
+
+You can customize the following variables in the script:
+```python
+json_file_path = "system-jumps-latest.json"  # Your input JSON file
+csv_mapping_path = "path/to/mapSolarSystems.csv"  # Your SDE mapping file
+output_csv_path = "system-jumps-converted.csv"  # Output file location
+```
+
+## Example
+
+```bash
+$ python json_to_csv_converter.py
+Parsing JSON file...
+Raw content preview: [{"ship_jumps":15,"system_id":30002808},{"ship_jumps":9,"system_id":30002006}...
+Successfully parsed 1247 records
+First record example: {'ship_jumps': 15, 'system_id': 30002808}
+Loading system mapping...
+Loaded 8285 system mappings
+Writing to system-jumps-converted.csv...
+Successfully converted 1247 records to CSV
+
+Conversion complete!
+Output file: system-jumps-converted.csv
+```
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Disclaimer
+
+This tool is not affiliated with CCP Games or EVE Online. EVE Online is a trademark of CCP Games.
