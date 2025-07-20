@@ -2,6 +2,8 @@ What is this?
 
 https://www.eveonline.com/ 
 
+Tracking the Player versus Player (PvP) engagements each day for the MMORPG, Eve Online. Dashboards are built in Tableau, and track player kills by ship type & name, victim deaths by ship type & name, solar systems where attacks occurred, and number of kills by hour. PvP engagement is the core gameplay loop of Eve Online and what drives the player ran economy. Looking at these dashboards, we can see where and how players are the most active (by seeing the ships being used, and where attacks are occurring). 
+
 Update Log:
 
 PvP Metrics for June, 2025: https://public.tableau.com/app/profile/eve.online.daily.data/viz/PvPForJune2025/PvPMetricsforJune2025 
