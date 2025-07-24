@@ -8,6 +8,8 @@ Update Log:
 
 PvP Metrics for June, 2025: https://public.tableau.com/app/profile/eve.online.daily.data/viz/PvPForJune2025/PvPMetricsforJune2025 
 
+Killmail Dashboard for July 22, 2025: https://public.tableau.com/app/profile/eve.online.daily.data/viz/Killmails07-22-25/Dashboard1
+
 Killmail Dashboard for July 21, 2025: https://public.tableau.com/app/profile/eve.online.daily.data/viz/Killmails07-21-25/Dashboard1
 
 Killmail Dashboard for July 20, 2025: https://public.tableau.com/app/profile/eve.online.daily.data/viz/Killmails07-20-25/Dashboard1
