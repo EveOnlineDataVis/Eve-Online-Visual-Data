@@ -50,7 +50,7 @@ Killmail Dashboard for July 12, 2025: https://public.tableau.com/app/profile/eve
 
 Killmail Dashboard for July 11, 2025: https://public.tableau.com/app/profile/eve.online.daily.data/viz/Killmails07-11-25/Dashboard1
 
-Killmail Dashboard for July 10, 2025: [https://public.tableau.com/app/profile/eve.online.daily.data/viz/Killmails07-09-25/Dashboard1?publish=yes](https://public.tableau.com/app/profile/eve.online.daily.data/viz/Killmails07-10-25/Dashboard1)
+Killmail Dashboard for July 10, 2025: [https://public.tableau.com/app/profile/eve.online.daily.data/viz/Killmails07-09-25/Dashboard1
 
 Killmail Dashboard for July 9, 2025: https://public.tableau.com/app/profile/eve.online.daily.data/viz/Killmails07-09-25/Dashboard1
 
@@ -60,7 +60,7 @@ Killmail Dashboard for July 7, 2025: https://public.tableau.com/app/profile/eve.
 
 Killmail Dashboard for July 6, 2025: https://public.tableau.com/app/profile/eve.online.daily.data/viz/Killmails07-06-25/Dashboard1
 
-Killmail Dashboard for July 5, 2025: [https://public.tableau.com/app/profile/eve.online.daily.data/viz/Killmails07-05-25/Dashboard1#1](https://public.tableau.com/app/profile/eve.online.daily.data/viz/Killmails07-05-25/KillMailDashboard)
+Killmail Dashboard for July 5, 2025: [https://public.tableau.com/app/profile/eve.online.daily.data/viz/Killmails07-05-25/Dashboard1
 
 Killmail Dashboard for July 4, 2025: https://public.tableau.com/app/profile/eve.online.daily.data/viz/Killmails07-04-25/KillMailDashboard
 
